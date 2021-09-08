@@ -26,8 +26,11 @@ function App() {
         <label>レコーディングの長さ</label>
         <input name='recordLengthinSeconds' type='number' />
 
+        <label>デバイスカテゴリー</label>
+        <input name='devices[][deviceCategory]' type='text' />
+
         <label>デバイス名</label>
-        <input name='devices[][name]' type='text' />
+        <input name='devices[][deviceName]' type='text' />
 
         <label>デバイスタイプ</label>
         <input name='devices[][deviceType]' type='text' />
