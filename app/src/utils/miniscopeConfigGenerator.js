@@ -1,4 +1,4 @@
-class miniscopeConfigGenerator {
+class MiniscopeConfigGenerator {
   static TEMP_DEFAULT_CONFIGURES = {
     dataDirecotry: 'C:/FILL/OUT/THIS/PATH',
     direcotryStructure: [
